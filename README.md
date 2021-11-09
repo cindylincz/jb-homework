@@ -45,7 +45,7 @@
   
 - SQL script 
 
-  The script used for all the data preparation, analysis and troubleshooting. The script can be found in the folder **Task1**.
+  The script **Task1** used for all the data preparation, analysis and troubleshooting. It can be found in the folder **Task1**.
 
 ### Finding
 
