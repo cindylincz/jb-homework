@@ -132,12 +132,12 @@ This section the lists are created as requested, and the troubleshooting process
 
 #### Data Preparation
 
-Lookup tables are directly loaded directly to the Power BI. To keep the performance, only essential fields from Order table (together with the partial information of rates and order items) is loaded and used in the dashboard.
+Lookup tables are directly loaded to the Power BI. To keep the performance, only essential fields from Order table (together with the partial information of rates and order items) is loaded and used in the dashboard.
 
 #### Data Analysis
 
-1. There were declines in sales amount in all months in 2019H1. However, without currency conversion the sales performance actually was not bad in 2019H1. Thus the cause could most likely be the exchange rate. 
+1. There were declines in sales amount in all months in 2019H1. However, without currency conversion the sales performance was actually not bad in 2019H1. Thus the cause could most likely be the exchange rate. 
 
-2. After checking the trend in exchange rates of EUR and GBP, the rates in 2019 were overall higher than in 2018, which led to the lower USD value after conversion. 
+2. After checking the trend in EUR and GBP exchange rates, the rates in 2019 were overall higher than in 2018, which led to the lower USD value after conversion in 2019. 
 
 3. To avoid the effect from exchange rates, the fixed rates (instead of using daily rates) can be applied in the report. The trend in original values can be kept and at the same time the performance can be compared with US market.
