@@ -117,10 +117,16 @@ This section the lists are created as requested, and the troubleshooting process
 - Power BI dashboard (in both PDF and .pbix format)
 
   The dashboard is created to illustrate the issue and proposed solution better.
+  
+  - Task2_Sales.pbix
+  
+  - Task2_Sales.pdf
 
 ### Finding & Solution
 
-The performance is mainly affected by the change in exchange rate of EUR and GBP. If taking the original sales values (not converted to USD), there is growth in sales in 2019H1 in comparison with 2018H1. The suggestion would be to use one fixed exchange rate (e.g. the rates as of the reporting date) while comparing the sales in ROW and US. By doing so the changes in rates will not be reflected in the report and the original sales trend can be kept.  
+- The performance is mainly affected by the change in exchange rate of EUR and GBP. If taking the original sales values (not converted to USD), there is growth in sales in 2019H1 in comparison with 2018H1.
+
+- The suggestion would be to use one fixed exchange rate (e.g. the rates as of the reporting date) while comparing the sales in ROW and US. By doing so the changes in rates will not be reflected in the report and the original sales trend can be kept.  
 
 ### Solving Process
 
@@ -130,7 +136,8 @@ Lookup tables are directly loaded directly to the Power BI. To keep the performa
 
 #### Data Analysis
 
-There were declines in sales amount in all months in 2019H1. However, without currency conversion the sales performance actually was not bad in 2019H1. Thus the cause could most likely be the exchange rate. 
+1. There were declines in sales amount in all months in 2019H1. However, without currency conversion the sales performance actually was not bad in 2019H1. Thus the cause could most likely be the exchange rate. 
 
-After checking the trend in exchange rates of EUR and GBP, the rates in 2019 were overall higher than in 2018, which led to the lower USD value after conversion. 
-To avoid the effect from exchange rates, the fixed rates (instead of using daily rates) can be applied in the report. The trend in original values can be kept and at the same time the performance can be compared with US market.
+2. After checking the trend in exchange rates of EUR and GBP, the rates in 2019 were overall higher than in 2018, which led to the lower USD value after conversion. 
+
+3. To avoid the effect from exchange rates, the fixed rates (instead of using daily rates) can be applied in the report. The trend in original values can be kept and at the same time the performance can be compared with US market.
